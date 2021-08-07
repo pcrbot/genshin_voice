@@ -6,7 +6,7 @@ from typing import Optional, Tuple
 from nonebot import CommandSession
 
 import hoshino
-import update
+from . import update
 from hoshino import Service
 
 language_mapping = {'汉语': 'cn', '英语': 'en', '日语': 'jp', '韩语': 'kr'}
